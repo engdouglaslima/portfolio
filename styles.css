@@ -213,3 +213,8 @@ html{background:var(--paper)}
  .project-card{padding-bottom:20px}
  .project-card .project-meta{margin-top:18px}
 }
+
+/* Equal card heights per row without stretching the image area. */
+.project-grid{align-items:stretch}
+.project-card{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;height:100%}
+.project-card .project-art{flex-shrink:0}
