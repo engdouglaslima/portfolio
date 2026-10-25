@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="color-scheme" content="light dark">
+  <title>Douglas Lima — Engineering in motion</title>
+  <meta name="description" content="Douglas Lima’s mechanical engineering portfolio. Explore projects in product design, conveying systems, machinery and industrial structures.">
+  <meta property="og:title" content="Douglas Lima — Engineering in motion">
+  <meta property="og:description" content="Mechanical engineering and product design: conveying systems, machinery and industrial structures.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://portfolio.eng-doug-lima.chatgpt.site">
+  <link rel="icon" href="assets/favicon.svg?v=geometrica" type="image/svg+xml">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css?v=cards-20261025">
+  <script src="projects.js?v=cards-20261025" defer></script>
+  <script src="app.js?v=cards-20261025" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Douglas Lima — home"><img class="brand-mark" src="assets/dl-silver-red.svg?v=b63838" width="72" height="39" alt="" aria-hidden="true"><span class="brand-name">DOUGLAS LIMA<span><img class="accent-label engineering-label" src="assets/engineering-label.svg" alt="MECHANICAL ENGINEERING"></span></span></a>
+      <nav class="nav-links" aria-label="Main navigation" id="main-nav">
+        <a href="#projetos">Projects</a>
+        <a href="#atuacao">Expertise</a>
+        <a href="#sobre">About</a>
+      </nav>
+      <div class="nav-actions"><button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span><img class="accent-label portfolio-label" src="assets/portfolio-label.svg" alt="ENGINEERING PORTFOLIO"></span></p>
+        <h1 id="hero-title">Inspired by challenges. Driven to <span><img class="accent-label improve-label" src="assets/improve-label.svg" alt="improve."></span></h1>
+        <p class="hero-intro">Designing products, developing solutions and improving how things work.</p>
+      </div>
+    </section>
+    <section class="projects-section container" id="projetos" aria-labelledby="projects-title">
+      <div class="section-heading"><h2 id="projects-title">My work</h2></div>
+      <div class="project-toolbar"><div class="filters" role="group" aria-label="Filter projects by category"></div></div>
+      <div class="project-grid" id="project-grid"></div>
+      <div class="show-more-wrap"><button class="button button-outline" id="show-more" type="button"><span>View all projects</span><span aria-hidden="true">+</span></button></div>
+      <noscript><p>Enable JavaScript to explore the interactive project gallery.</p></noscript>
+    </section>
+    <section class="expertise" id="atuacao" aria-labelledby="expertise-title"><div class="container expertise-layout"><div class="expertise-intro"><h2 id="expertise-title">Expertise</h2><p>Inspired by the challenge of making things better.</p></div><div class="expertise-list">
+      <button type="button" class="expertise-item" data-category="products"><span><strong>Product Design</strong><span>From initial concepts to detailed mechanical design, with attention to function, materials and manufacturing.</span></span><span class="expertise-arrow" aria-hidden="true">↗</span></button>
+      <button type="button" class="expertise-item" data-category="handling"><span><strong>Conveying Systems</strong><span>From individual conveyors to complete material handling layouts, designed around each application.</span></span><span class="expertise-arrow" aria-hidden="true">↗</span></button>
+      <button type="button" class="expertise-item" data-category="machines"><span><strong>Machinery and Equipment</strong><span>Mechanical design of machines and equipment, balancing performance, manufacturability and ease of maintenance.</span></span><span class="expertise-arrow" aria-hidden="true">↗</span></button>
+      <button type="button" class="expertise-item" data-category="structures"><span><strong>Industrial Structures</strong><span>Mezzanines, support frames and steel structures for equipment and industrial installations.</span></span><span class="expertise-arrow" aria-hidden="true">↗</span></button>
+
+
+
+
+    </div></div></section>
+    <section class="about container" id="sobre" aria-labelledby="about-title"><div class="about-left"><p class="eyebrow"><span>ABOUT</span></p><h2 id="about-title">Douglas Lima<span>.</span></h2><p class="about-role">MECHANICAL ENGINEER &amp; DESIGNER</p><div class="about-contact"><a class="contact-card" href="mailto:eng.doug.lima@gmail.com" aria-label="Email Douglas Lima at eng.doug.lima@gmail.com"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></span><span class="contact-copy"><span class="contact-address">eng.doug.lima@gmail.com</span></span></a><a class="linkedin-link" href="https://www.linkedin.com/in/eng-douglas-lima/" target="_blank" rel="noopener noreferrer" aria-label="Douglas Lima on LinkedIn (opens in a new tab)"><span class="linkedin-icon" aria-hidden="true">in</span><span>Find me on LinkedIn</span></a></div></div><div class="about-copy"><p>I’m a mechanical engineer and designer with experience in product development, industrial automation and engineering projects, from initial concepts to detailed design and implementation.</p><p>I care about the details that make a design work: how parts fit together, how something is built and how it performs in practice. I enjoy questioning existing approaches, exploring new technologies and finding ways to improve both the result and the process behind it.</p><p>My experience working with international teams has shaped a collaborative approach to engineering. In addition to project work, I work on standardization and reusable tools that help teams deliver more consistent, efficient work.</p></div></section>
+  </main>
+  <footer class="container footer"><a class="footer-brand" href="#inicio"><img class="footer-mark" src="assets/dl-silver-red.svg?v=b63838" width="42" height="23" alt="" aria-hidden="true">DOUGLAS LIMA</a><a href="#inicio"><span>Back to top</span> ↑</a></footer>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="dialog-index">PROJECT</span><button class="icon-button close-dialog" type="button" aria-label="Close project">×</button></div><div class="dialog-layout"><div class="dialog-visual"><div class="dialog-image-wrap"></div></div><div class="dialog-copy"><p class="eyebrow dialog-category"></p><h2 id="dialog-title"></h2><h3 class="dialog-section-title">About the Project</h3><p class="dialog-description"></p><h3 class="dialog-section-title">My Contribution</h3><p class="dialog-contribution"></p><dl class="dialog-facts"></dl></div></div><div class="dialog-nav"><button class="previous-project text-link" type="button"><span aria-hidden="true">←</span><span>Previous</span></button><button class="next-project text-link" type="button"><span>Next</span><span aria-hidden="true">→</span></button></div></dialog>
+</body>
+</html>
